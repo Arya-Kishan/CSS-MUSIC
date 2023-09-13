@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px 4vw;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 17, 86);
+    align-items: center;
+    padding: 1vw;
+    color: rgb(209, 255, 205);
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* ---------------------------------------------- */
+
+
+.section1 {
+    background-image: url(Music_images/main1.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section1 h1 {
+    font-size: 30px;
+}
+
+
+/* ---------------------------------------------- */
+
+.section2main {
+    background-color: rgb(0, 17, 86);
+    padding-top: 10vh;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 0px 10vw;
+    color: white;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 button {
+    padding: 10px;
+    background-color: orange;
+}
+
+#main2 {
+    margin-top: -370px;
+    position: relative;
+    top: 370px;
+    width: 80vw;
+}
+
+
+
+/* ---------------------------------------------- */
+.section3 {
+    padding-top: 60vh;
+    scroll-margin-top: -58vh;
+    background-color: white;
+}
+
+.section3 div {
+    margin: 0px 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    margin-bottom: 10vh;
+}
+
+#musichand {
+    width: 80vw;
+}
+
+#read {
+    background-color: rgb(0, 8, 55);
+    padding: 10px;
+    color: white;
+}
+
+/* ---------------------------------------------- */
+
+.section4 {
+    color: white;
+    height: 80vh;
+    width: 100%;
+    background-image: url(Music_images/main3.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+
+
+/* ---------------------------------------------- */
+
+.section5 {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    height: 80vh;
+    padding: 0px 10vw;
+    background-color: white;
+}
+
+.section5 span {
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+#card1 {
+    width: 30vw;
+}
+
+.cardcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+}
+
+#redeem {
+    padding: 10px;
+    background-color: rgb(0, 17, 86);
+    color: white;
+}
+
+
+
+/* ---------------------------------------------- */
+
+
+footer {
+    background-color: rgb(11, 38, 145);
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    padding: 3%;
+}
+
+.foot2 {
+    background-color: rgb(2, 16, 70);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.shop {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.shop span {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.education span {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.orange {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.orange span {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.about span {
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 700px) {
+    body {
+        margin: 0;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+
+    /* ----SECTION 1-------------------------- */
+    .section1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    /* ----SECTION 2-------------------------- */
+
+    .section2main {
+        background-color: rgb(0, 17, 86);
+        padding-top: 10vh;
+        height: 60vh;
+    }
+
+    /* ----SECTION 3 -------------------------- */
+
+    .section3 {
+        padding-top: 30vh;
+        padding-bottom: 10vh;
+        scroll-margin-top: -58vh;
+        background-color: white;
+    }
+
+    .section3 div {
+        margin: 0px 10vw;
+        gap: 4vh;
+    }
+
+    /* ----SECTION 4 -------------------------- */
+
+    .section4 {
+        color: white;
+        height: 50vh;
+        gap: 5vh;
+        padding: 20px;
+    }
+
+    .section4 h2 {
+        color: black;
+    }
+
+    /* ----SECTION 5 -------------------------- */
+    
+    .cardcontent p {
+        display: none;
+    }
+    
+    /* ----SECTION 6 -------------------------- */
+
+    footer {
+        background-color: rgb(11, 38, 145);
+    }
+    
+    .foot1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10vw;
+        padding: 3%;
+    }
+    
+    .foot2 {
+        background-color: rgb(2, 16, 70);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+    }
+    
+    .shop {
+        display: none;
+    }
+    
+    .education {
+        display: none;
+    }
+    
+    .orange {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+    
+    
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+
+
+}
